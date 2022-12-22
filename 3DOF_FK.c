@@ -33,7 +33,7 @@ Point forwardKinematics(Robot robot) {
               p2.y + robot.l2 * sin(robot.theta1 + robot.theta2),
               0};
 
-  // enf effector position
+  // end effector position
   Point p4 = {p3.x + robot.l3 * cos(robot.theta1 + robot.theta2 + robot.theta3),
               p3.y + robot.l3 * sin(robot.theta1 + robot.theta2 + robot.theta3),
               0};
